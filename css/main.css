@@ -1,4 +1,10 @@
 /* main css */
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
 /**** BASE STYLES ****/
 
 body {
@@ -154,9 +160,37 @@ nav ul li a {
 
 #copyright .full-width p {
 	vertical-align: bottom;
+	position: absolute;
 }
 
+/*** RESPONSIVE ***/
 
+@media (max-width: 768px){
+	#portfolio {
+		height: 100px;
+	}
+
+.half-width, .third-width {
+	min-width: 100%;
+	max-width: 100%;
+	}
+#portfolio .half-width {
+	padding: 0;
+}
+
+#portfolio .half-width p, h3, h4 {
+	display: none;
+}
+#portfolio h2, #about .full-width, #contact h2 {
+	background: #daa520; 
+}
+#about {
+	background: none;
+}
+#about p {
+	color: #eeeeee;
+}
+}
 
 
 
