@@ -68,6 +68,10 @@ nav ul li a {
 }
 
 /***** PORTFOLIO SECTION *****/
+#portfolio {
+	text-align: center;
+}
+
 #portfolio .full-width {
 	padding: 10px 0;
 	height: 1560px;
@@ -109,14 +113,48 @@ nav ul li a {
 	text-align: center;
 	color: #fa0075;
 }
-#work p {
-    font-family: 'Lora', serif; 
+
+#about h4 {
+	color: black;
+} 
+
+#about p {
+    font-family: 'Montserrat', sans-serif; 
     font-size: 18px;
-    line-height: 30px;
-    padding: 0 50px;
+    color: black;
 }
 
-*/
+/***** CONTACT SECTION *****/
+#contact {
+	height: 280px;
+	text-align: center;
+	clear: both;
+}
+
+#contact h2 {
+    font-family: 'Source Code Pro', monospace;
+	font-weight: 600;
+	font-size: 36px;
+	text-align: center;
+	color: #fa0075;
+}
+#contact p {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
+}
+
+
+/**** FOOTER ****/
+
+#copyright {
+	clear: both;
+	text-align: center;
+	height: 30px;
+}
+
+#copyright .full-width p {
+	vertical-align: bottom;
+}
 
 
 
