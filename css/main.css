@@ -200,14 +200,6 @@ nav ul li a {
 }
 
 
-#portfolio {
-		height: 100px;
-	}
-#portfolio .full-width {
-	padding: 5px 0;
-	height: 780px;
-}
-
 .half-width, .third-width {
 	min-width: 100%;
 	}
@@ -219,7 +211,7 @@ nav ul li a {
 #portfolio .half-width p, h3, h4, .content {
 	display: none;
 }
-#about .full-width, #contact h2 {
+.headline {
 	background: #daa520; 
 }
 #about {
