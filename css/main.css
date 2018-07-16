@@ -1,227 +1,194 @@
 /* main css */
-
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+ * {
+     -moz-box-sizing: border-box;
+    /* Firexfox */
+     -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box;
+    /* IE */
 }
 /**** BASE STYLES ****/
-
-body {
-	background-color: #1f202b;
-	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
+ body {
+     background-color: #1f202b;
+     font-family: 'Montserrat', sans-serif;
+     color: #ffffff;
 }
-
-#contact {
-	height: 600px;
+ #contact {
+     height: 600px;
 }
-
 /***** GRID *****/
-.full-width {
-	width: 1200px;
-	margin: 0 auto;
+ .full-width {
+     width: 1200px;
+     margin: 0 auto;
 }
-.half-width {
-	width: 600px;
-	float: left;
+ .half-width {
+     width: 600px;
+     float: left;
 }
-.third-width {
-	width: 400px;
-	float: left;
+ .third-width {
+     width: 400px;
+     float: left;
 }
-
 /**** HEADER ****/
-header {
-	height: 800px;
-	min-width: 100%;
-	background: url('../images/hero-background.png') no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+ header {
+     height: 800px;
+     min-width: 100%;
+     background: url('../images/hero-background.png') no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
 }
-
-header h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	color: #ffffff;
-	padding: 20px 0;
+ header h1 {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     color: #ffffff;
+     padding: 20px 0;
 }
-
-header h2 {
-	width: 700px;
-	clear: both;
-	font-family: 'Source Code Pro', monospace;
-	font-size: 72px;
-	line-height: ;
-	color: #ffffff;
-	padding: 200px 0;
+ header h2 {
+     width: 700px;
+     clear: both;
+     font-family: 'Source Code Pro', monospace;
+     font-size: 72px;
+     color: #ffffff;
+     padding: 200px 0;
 }
-
-header h2 span {
-	color: #fa0075;
+ header h2 span {
+     color: #fa0075;
 }
-
-nav {
-    float: right; 
-    padding: 20px 45px;
+ nav {
+     float: right;
+     padding: 20px 45px;
 }
-nav ul li{
-    display: inline-block;
+ nav ul li{
+     display: inline-block;
 }
-nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    padding-left: 80px; 
+ nav ul li a {
+     text-decoration: none;
+     font-size: 20px;
+     color: #ffffff;
+     padding-left: 80px;
 }
-
 /***** PORTFOLIO SECTION *****/
-#portfolio {
-	text-align: center;
+ #portfolio {
+     text-align: center;
 }
-
-#portfolio .full-width {
-	padding: 10px 0;
-	height: 1560px;
+ #portfolio .full-width {
+     padding: 10px 0;
 }
-
-#portfolio .half-width {
-	height: 520px;
+ #portfolio .half-width {
+     height: 520px;
 }
-
-#portfolio h2 {
-	font-family: 'Source Code Pro', monospace;
-	font-weight: 600;
-	font-size: 36px;
-	text-align: center;
-	color: #fa0075;
+ #portfolio h2 {
+     font-family: 'Source Code Pro', monospace;
+     font-weight: 600;
+     font-size: 36px;
+     text-align: center;
+     color: #fa0075;
 }
-#portfolio p {
-	font-family:'Montserrat' sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	color: #ffffff;
-	line-height: 20px;
-
+ #portfolio p {
+     font-family:'Montserrat' sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+     color: #ffffff;
+     line-height: 20px;
 }
-
 /***** ABOUT SECTION *****/
-#about {
-	height: 480px;
-	background: url('../images/about-me.png') no-repeat;
-	background-size: cover;
-	text-align: center;
-	clear: both;
+ #about {
+     height: 480px;
+     background: url('../images/about-me.png') no-repeat;
+     background-size: cover;
+     text-align: center;
+     clear: both;
 }
-
-#about h2 {
-    font-family: 'Source Code Pro', monospace;
-	font-weight: 600;
-	font-size: 36px;
-	text-align: center;
-	color: #fa0075;
+ #about h2 {
+     font-family: 'Source Code Pro', monospace;
+     font-weight: 600;
+     font-size: 36px;
+     text-align: center;
+     color: #fa0075;
 }
-
-#about h4 {
-	color: black;
-} 
-
-#about p {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 18px;
-    color: black;
+ #about h4 {
+     color: black;
 }
-
+ #about p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 18px;
+     color: black;
+}
 /***** CONTACT SECTION *****/
-#contact {
-	height: 280px;
-	text-align: center;
-	clear: both;
+ #contact {
+     height: 280px;
+     text-align: center;
+     clear: both;
 }
-
-#contact h2 {
-    font-family: 'Source Code Pro', monospace;
-	font-weight: 600;
-	font-size: 36px;
-	text-align: center;
-	color: #fa0075;
+ #contact h2 {
+     font-family: 'Source Code Pro', monospace;
+     font-weight: 600;
+     font-size: 36px;
+     text-align: center;
+     color: #fa0075;
 }
-#contact p {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 14px;
+ #contact p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
 }
-
-#contact .third-width {
-	padding-bottom: 100px;
+ #contact .third-width {
+     padding-bottom: 100px;
 }
-
 /**** FOOTER ****/
-
-#copyright {
-	clear: both;
-	height: 30px;
+ #copyright {
+     clear: both;
+     height: 30px;
 }
-
-#copyright .full-width p {
-	vertical-align: bottom;
-	text-align: center;
+ #copyright .full-width p {
+     vertical-align: bottom;
+     text-align: center;
 }
-
 /*** RESPONSIVE ***/
-
-@media (max-width: 768px){
-
-
-header {
-	height: 400px;
-	background: url('../images/keyboard.jpg') no-repeat center;
-	background-size: cover;
-	max-width: 100%;
+ @media (max-width: 768px){
+     header {
+         height: 400px;
+         background: url('../images/keyboard.jpg') no-repeat center;
+         background-size: cover;
+         max-width: 100%;
+    }
+     header h1 {
+         font-size: 8px;
+    }
+     header h2 {
+         font-size: 36px;
+         width: 150px;
+         padding-top: 100px;
+    }
+     nav {
+         float: right;
+    }
+     nav ul li {
+         display: inline-block;
+    }
+     nav ul li a {
+         font-size: 8px;
+         padding: 0;
+    }
+     .half-width, .third-width {
+         min-width: 100%;
+    }
+     #portfolio .half-width {
+         padding: 0;
+         max-width: 100%;
+    }
+     #portfolio .half-width p, h3, h4, .content {
+         display: none;
+    }
+     .headline {
+         background: #daa520;
+    }
+     #about {
+         background: none;
+    }
+     #about p {
+         color: #eeeeee;
+    }
 }
-header h1 {
-	font-size: 8px;
-	}
-header h2 {
-	font-size: 36px;
-	width: 150px;
-	padding-top: 100px;
-}
-nav {
-	float: right;
-}
-nav ul li {
-    display: inline-block;
-}
-nav ul li a {
-	font-size: 8px;
-	padding: 0;
-}
-
-
-.half-width, .third-width {
-	min-width: 100%;
-	}
-#portfolio .half-width {
-	padding: 0;
-	max-width: 100%;
-}
-
-#portfolio .half-width p, h3, h4, .content {
-	display: none;
-}
-.headline {
-	background: #daa520; 
-}
-#about {
-	background: none;
-}
-#about p {
-	color: #eeeeee;
-}
-}
-
-
-
-
+ 
