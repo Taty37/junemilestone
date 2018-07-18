@@ -38,6 +38,7 @@
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
+     /*overflow: hidden;*/
 }
  header h1 {
      font-family: 'Montserrat', sans-serif;
@@ -75,6 +76,7 @@
 }
  #portfolio .full-width {
      padding: 10px 0;
+     overflow: hidden;
 }
  #portfolio .half-width {
      height: 520px;
@@ -147,17 +149,26 @@
 }
 /*** RESPONSIVE ***/
  @media (max-width: 768px){
+
+    #navigation .half-width {
+
+        min-width: 50%;
+        max-width: 50%;
+    }
+    .clearfix {
+        float: none;
+    }
      header {
-         height: 400px;
+         height: 800px;
          background: url('../images/keyboard.jpg') no-repeat center;
          background-size: cover;
-         max-width: 100%;
+         width: 1200px;
     }
      header h1 {
-         font-size: 8px;
+         font-size: 18px;
     }
      header h2 {
-         font-size: 36px;
+         font-size: 72px;
          width: 150px;
          padding-top: 100px;
     }
@@ -168,8 +179,8 @@
          display: inline-block;
     }
      nav ul li a {
-         font-size: 8px;
-         padding: 0;
+         font-size: 18px;
+         paddinga: 0;
     }
      .half-width, .third-width {
          min-width: 100%;
