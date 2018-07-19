@@ -148,7 +148,7 @@
      text-align: center;
 }
 /*** RESPONSIVE ***/
- @media (max-width: 768px){
+ @media (max-width: 414px){
 
     #navigation .half-width {
         min-width: 50%;
