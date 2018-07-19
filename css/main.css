@@ -151,7 +151,6 @@
  @media (max-width: 768px){
 
     #navigation .half-width {
-
         min-width: 50%;
         max-width: 50%;
     }
@@ -159,28 +158,28 @@
         float: none;
     }
      header {
-         height: 800px;
+         height: 2400px;
          background: url('../images/keyboard.jpg') no-repeat center;
          background-size: cover;
          width: 1200px;
     }
      header h1 {
-         font-size: 18px;
+         font-size: 26px;
     }
      header h2 {
-         font-size: 72px;
+         font-size: 180px;
          width: 150px;
-         padding-top: 100px;
+         padding-top: 500px;
     }
      nav {
          float: right;
     }
      nav ul li {
-         display: inline-block;
+         display: block;
     }
      nav ul li a {
-         font-size: 18px;
-         paddinga: 0;
+         font-size: 48px;
+         padding: 2px;
     }
      .half-width, .third-width {
          min-width: 100%;
@@ -195,11 +194,20 @@
      .headline {
          background: #daa520;
     }
+    #portfolio h2, #about h2, #contact h2 {
+        font-size: 60px;
+    }
+
      #about {
          background: none;
     }
+    }
      #about p {
          color: #eeeeee;
+         font-size: 36px;
+    }
+    #contact p {
+        font-size: 36px;
     }
 }
  
