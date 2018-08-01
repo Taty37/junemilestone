@@ -147,7 +147,10 @@
      vertical-align: bottom;
      text-align: center;
 }
+
+
 /*** RESPONSIVE ***/
+/*
  @media (max-width: 414px){
 
     #navigation .half-width {
@@ -210,4 +213,6 @@
         font-size: 36px;
     }
 }
+
+*/
  
